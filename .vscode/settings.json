@@ -1,0 +1,14 @@
+{
+  "python.pythonPath": "/usr/local/bin/python3",
+  "git.ignoreLimitWarning": true,
+  "python.languageServer": "Pylance",
+  "editor.formatOnSave": false,
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "emmet.includeLanguages": { "django-html": "html" },
+  "editor.wordWrap": "off"
+}
